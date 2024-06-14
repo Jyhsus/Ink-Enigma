@@ -1,0 +1,292 @@
+.fondo5 {
+  align-self: stretch;
+  height: 1280px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  display: none;
+  z-index: 0;
+}
+.banner5,
+.logotop-1-icon5 {
+  position: relative;
+  max-width: 100%;
+}
+.banner5 {
+  height: 136px;
+  width: 1920px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: none;
+}
+.logotop-1-icon5 {
+  height: 126px;
+  width: 431px;
+  object-fit: cover;
+  z-index: 2;
+}
+.banner-parent1 {
+  align-self: stretch;
+  height: 136px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xl) var(--padding-8xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.r-1-12 {
+  width: 491.9px;
+  height: 496.5px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 199.5px;
+  left: 447px;
+  object-fit: contain;
+  z-index: 4;
+}
+.frame-child18 {
+  width: 561px;
+  height: 737px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.frame-child19 {
+  height: 72px;
+  width: 71.7px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  display: none;
+}
+.frame-child20 {
+  height: 49.7px;
+  width: 55.4px;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent9 {
+  height: 72px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.100000000000025px 7.199999999999818px 11.199999999999932px
+    9.100000000000364px;
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 2;
+}
+.crea-una-mesa1 {
+  height: 165px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 2;
+}
+.crea-una-mesa-para-jugar-con-t-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 40px;
+}
+.codigo1 {
+  width: 147px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.frame-child21 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-gray-400);
+  border: 2px solid var(--color-black);
+  z-index: 2;
+}
+.codigo-parent,
+.frame-wrapper2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.codigo-parent {
+  flex: 1;
+  flex-direction: column;
+}
+.frame-wrapper2 {
+  height: 112px;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+}
+.frame-child22 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-cadetblue);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 385px;
+  height: 60px;
+  cursor: pointer;
+  z-index: 2;
+}
+.ok1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 3;
+}
+.rectangle-parent10 {
+  height: 81px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frame-parent3,
+.frame-wrapper3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-wrapper3 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-4xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  color: var(--color-white);
+}
+.frame-parent3 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+}
+.frame-wrapper1 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-40xl);
+}
+.crea-una-mesa-inner,
+.frame-wrapper1,
+.rectangle-parent8 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent8 {
+  width: 561px;
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-6xs) 222px;
+  gap: var(--gap-base);
+  z-index: 1;
+}
+.crea-una-mesa-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.crea-una-mesa {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-229xl);
+  box-sizing: border-box;
+  gap: var(--gap-140xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .crea-una-mesa {
+    gap: 79px 159px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .crea-una-mesa1 {
+    font-size: var(--font-size-13xl);
+  }
+  .codigo1,
+  .ok1 {
+    font-size: var(--font-size-7xl);
+  }
+  .rectangle-parent8 {
+    padding-top: var(--padding-xl);
+    padding-bottom: 144px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .frame-wrapper1 {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .crea-una-mesa {
+    gap: 40px 159px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .crea-una-mesa1 {
+    font-size: 24px;
+  }
+  .codigo1,
+  .ok1 {
+    font-size: var(--font-size-lgi);
+  }
+}

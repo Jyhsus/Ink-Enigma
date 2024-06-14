@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/src/CSS/global.css" />
+    <link rel="stylesheet" href="/src/CSS/crea-una-mesa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="crea-una-mesa">
+      <div class="fondo5"></div>
+      <header class="banner-parent1">
+        <div class="banner5"></div>
+        <img
+          class="logotop-1-icon5"
+          loading="lazy"
+          alt=""
+          src="/public/logotop-1@2x.png"
+        />
+      </header>
+      <img class="r-1-12" loading="lazy" alt="" src="/public/r-1-1@2x.png" />
+
+      <section class="crea-una-mesa-inner">
+        <div class="rectangle-parent8">
+          <div class="frame-child18"></div>
+          <div class="rectangle-parent9" id="groupContainer">
+            <div class="frame-child19"></div>
+            <img
+              class="frame-child20"
+              loading="lazy"
+              alt=""
+              src="/public/vector-11.svg"
+            />
+          </div>
+          <div class="frame-wrapper1">
+            <div class="frame-parent3">
+              <div class="crea-una-mesa-para-jugar-con-t-wrapper">
+                <b class="crea-una-mesa1"
+                  >Crea una mesa para jugar con tus amigos</b
+                >
+              </div>
+              <div class="frame-wrapper2">
+                <div class="codigo-parent">
+                  <b class="codigo1">CODIGO:</b>
+                  <div class="frame-child21"></div>
+                </div>
+              </div>
+              <div class="frame-wrapper3">
+                <div class="rectangle-parent10">
+                  <div class="frame-child22" id="rectangle"></div>
+                  <b class="ok1">OK</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./mesa-privada.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function (e) {
+          window.location.href = "./mesa.html";
+        });
+      }
+      </script>
+  </body>
+</html>

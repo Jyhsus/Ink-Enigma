@@ -4,13 +4,40 @@
   
   Jesús David Martino Galindo (300000079727)
 
-  # Pinturillo
+  # Ink Enigma
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+  Pagina proyecto que simula a "Pinturillo".
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  # Proyecto-Pinturillo
-# Ink-Enigma
+  ## Instalacion
+
+  ### Prerequisitos
+  - Node.js (v14 en adelante)
+  - Angular CLI (v12 en adelante)
+  - TypeScript
+
+    ### Steps
+    1. **Instalar dependencias**
+    
+       Para el Front:
+       ```bash
+       cd Front
+       npm install
+       ```
+       Para el Back:
+       ```bash
+       cd Back
+       npm install
+       ```
+    2. **Correr la aplicacion**
+    
+       Iniciar el server del Back:
+       ```bash
+       cd Back
+       npm start
+       ```
+       Iniciar el servidor del Front:
+       ```bash
+       cd Front
+       ng serve
+       ```
+       La aplicación ahora debería estar ejecutándose en http://localhost:1234.

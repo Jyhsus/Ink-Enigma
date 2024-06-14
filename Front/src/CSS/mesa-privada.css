@@ -1,0 +1,226 @@
+.fondo2 {
+  align-self: stretch;
+  height: 1280px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  display: none;
+}
+.banner2,
+.logotop-1-icon2 {
+  position: relative;
+  max-width: 100%;
+}
+.banner2 {
+  height: 136px;
+  width: 1920px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: none;
+}
+.logotop-1-icon2 {
+  height: 126px;
+  width: 431px;
+  object-fit: cover;
+  z-index: 2;
+}
+.banner-group {
+  align-self: stretch;
+  height: 136px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xl) var(--padding-8xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.create-table-child,
+.frame-child11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frame-child11 {
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+}
+.frame-child12 {
+  position: absolute;
+  width: calc(100% - 16.3px);
+  top: 11.1px;
+  right: 7.2px;
+  left: 9.1px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 49.7px;
+  z-index: 1;
+}
+.home,
+.rectangle-parent4 {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  width: 71.7px;
+  height: 72px;
+  cursor: pointer;
+  z-index: 2;
+}
+.home {
+  top: 0;
+  left: 0;
+  background-color: var(--color-cadetblue);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.unirse-a-mesa {
+  position: absolute;
+  height: calc(100% - 22px);
+  top: 11px;
+  left: 24px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 3;
+}
+.categories,
+.home-parent {
+  position: absolute;
+  cursor: pointer;
+}
+.home-parent {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 242px;
+  left: 87px;
+  width: 385px;
+  height: 103px;
+  white-space: nowrap;
+}
+.categories {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-sm);
+  background-color: var(--color-cadetblue);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.crear-mesa {
+  position: absolute;
+  height: calc(100% - 22px);
+  top: 11px;
+  left: 24px;
+  font-size: var(--font-size-13xl);
+  display: flex;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 3;
+}
+.categories-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 412px;
+  left: 88px;
+  width: 385px;
+  height: 103px;
+  white-space: nowrap;
+}
+.create-table {
+  position: absolute;
+  top: 0;
+  left: 233px;
+  background-color: var(--color-gainsboro);
+  width: 561px;
+  height: 737px;
+  z-index: 1;
+}
+.r-1-1 {
+  position: absolute;
+  top: 289px;
+  left: 0;
+  width: 491.9px;
+  height: 496.5px;
+  object-fit: contain;
+  z-index: 4;
+}
+.create-table-parent {
+  height: 785.5px;
+  width: 794px;
+  position: relative;
+  max-width: 100%;
+}
+.container,
+.mesa-privada {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.container {
+  width: 1688px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.mesa-privada {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 199.5px;
+  gap: var(--gap-140xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 960px) {
+  .mesa-privada {
+    gap: 79px 159px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mesa-privada {
+    gap: 40px 159px;
+  }
+}

@@ -1,0 +1,321 @@
+.fondo4 {
+  background: linear-gradient(#0003, #0003), linear-gradient(#44aa92 60%, #11362d);
+  align-self: stretch;
+  height: 1280px;
+  display: none;
+  position: relative;
+}
+
+.banner4, .logotop-1-icon4 {
+  max-width: 100%;
+  position: relative;
+}
+
+.banner4 {
+  background: linear-gradient(90deg, #71717100 24%, #71717182 51.5%, #717171 75.5%), #1e1e1e;
+  width: 1920px;
+  height: 136px;
+  display: none;
+}
+
+.logotop-1-icon4 {
+  object-fit: cover;
+  z-index: 2;
+  width: 431px;
+  height: 126px;
+}
+
+.frame-header {
+  padding: var(--padding-8xs) var(--padding-xl) var(--padding-8xs) var(--padding-2xl);
+  box-sizing: border-box;
+  z-index: 1;
+  background: linear-gradient(90deg, #71717100 24%, #71717182 51.5%, #717171 75.5%), #1e1e1e;
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  height: 136px;
+  display: flex;
+}
+
+.frame-child13 {
+  background-color: var(--color-gainsboro);
+  z-index: 0;
+  width: 561px;
+  max-width: 100%;
+  height: 737px;
+  display: none;
+  position: relative;
+}
+
+.frame-child14 {
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  width: 71.7px;
+  height: 72px;
+  display: none;
+  position: relative;
+}
+
+.frame-child15 {
+  z-index: 1;
+  width: 55.4px;
+  height: 49.7px;
+  position: relative;
+}
+
+.rectangle-parent6 {
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 2;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 72px;
+  padding: 11.1px 7.2px 11.2px 9.1px;
+  display: flex;
+}
+
+.introduce-el-cdigo, .mesa-n1 {
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.introduce-el-cdigo {
+  font-size: var(--font-size-17xl);
+  z-index: 2;
+  align-self: stretch;
+  height: 165px;
+}
+
+.mesa-n1 {
+  z-index: 5;
+  width: 149px;
+  height: 67px;
+}
+
+.frame-child16 {
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+  background-color: #0000001f;
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+}
+
+.mesa-n-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 385px;
+  max-width: 100%;
+  height: 207px;
+  display: flex;
+}
+
+.frame-child17, .r-shape {
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.r-shape {
+  background-color: var(--color-gray-400);
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+}
+
+.frame-child17 {
+  background-color: var(--color-cadetblue);
+  cursor: pointer;
+  width: 385px;
+  height: 60px;
+  position: absolute;
+  top: 9px;
+  left: 0;
+}
+
+.ok {
+  text-shadow: 1px 0 #000, 0 1px #000, -1px 0 #000, 0 -1px #000;
+  z-index: 3;
+  justify-content: center;
+  align-items: center;
+  width: 337px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 24px;
+}
+
+.rectangle-parent7 {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+}
+
+.o-k-label {
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  color: var(--color-white);
+  flex-direction: column;
+  width: 385px;
+}
+
+.o-k-label, .table-number, .table-number-wrapper {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.table-number {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+  width: 401px;
+}
+
+.table-number-wrapper {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  padding: 0 66px;
+}
+
+.r-1-11 {
+  object-fit: contain;
+  z-index: 4;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  margin: 0 !important;
+}
+
+.codigo {
+  z-index: 5;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 147px;
+  height: 50px;
+  display: flex;
+  position: relative;
+}
+
+.r-1-1-parent, .rectangle-parent5, .unirse-a-mesa-inner {
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex;
+}
+
+.r-1-1-parent {
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 491.9px;
+  height: 496.5px;
+  padding: 134px 24.9px;
+  position: absolute;
+  bottom: -48.5px;
+  left: -233px;
+  margin: 0 !important;
+}
+
+.rectangle-parent5, .unirse-a-mesa-inner {
+  max-width: 100%;
+}
+
+.rectangle-parent5 {
+  background-color: var(--color-gainsboro);
+  padding: var(--padding-6xs) var(--padding-6xs) 94px;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 561px;
+  position: relative;
+}
+
+.unirse-a-mesa-inner {
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+}
+
+.unirse-a-mesa1 {
+  padding: 0 0 var(--padding-229xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-140xl);
+  letter-spacing: normal;
+  background: linear-gradient(#0003, #0003), linear-gradient(#44aa92 60%, #11362d);
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 975px) {
+  .unirse-a-mesa1 {
+    gap: 79px 159px;
+  }
+}
+
+@media screen and (width <= 950px) {
+  .introduce-el-cdigo {
+    font-size: var(--font-size-10xl);
+  }
+
+  .codigo, .mesa-n1, .ok {
+    font-size: var(--font-size-7xl);
+  }
+
+  .rectangle-parent5 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (width <= 700px) {
+  .table-number-wrapper {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+
+  .unirse-a-mesa1 {
+    gap: 40px 159px;
+  }
+}
+
+@media screen and (width <= 450px) {
+  .introduce-el-cdigo {
+    font-size: var(--font-size-3xl);
+  }
+
+  .codigo, .mesa-n1, .ok {
+    font-size: var(--font-size-lgi);
+  }
+}
+/*# sourceMappingURL=unirse-a-mesa.ca719c75.css.map */

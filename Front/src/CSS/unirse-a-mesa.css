@@ -1,0 +1,313 @@
+.fondo4 {
+  align-self: stretch;
+  height: 1280px;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  display: none;
+}
+.banner4,
+.logotop-1-icon4 {
+  position: relative;
+  max-width: 100%;
+}
+.banner4 {
+  height: 136px;
+  width: 1920px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: none;
+}
+.logotop-1-icon4 {
+  height: 126px;
+  width: 431px;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-header {
+  align-self: stretch;
+  height: 136px;
+  background: linear-gradient(
+      90deg,
+      rgba(113, 113, 113, 0) 24%,
+      rgba(113, 113, 113, 0.51) 51.5%,
+      #717171 75.5%
+    ),
+    #1e1e1e;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-8xs) var(--padding-xl) var(--padding-8xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child13 {
+  width: 561px;
+  height: 737px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.frame-child14 {
+  height: 72px;
+  width: 71.7px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  display: none;
+}
+.frame-child15 {
+  height: 49.7px;
+  width: 55.4px;
+  position: relative;
+  z-index: 1;
+}
+.rectangle-parent6 {
+  height: 72px;
+  border-radius: var(--br-sm);
+  background-color: var(--color-darkslategray-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.100000000000025px 7.199999999999818px 11.199999999999932px
+    9.099999999999907px;
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 2;
+}
+.introduce-el-cdigo,
+.mesa-n1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.introduce-el-cdigo {
+  align-self: stretch;
+  height: 165px;
+  font-size: var(--font-size-17xl);
+  z-index: 2;
+}
+.mesa-n1 {
+  width: 149px;
+  height: 67px;
+  z-index: 5;
+}
+.frame-child16 {
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+  border-radius: var(--br-sm);
+  background-color: rgba(0, 0, 0, 0.12);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.mesa-n-group {
+  width: 385px;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-child17,
+.r-shape {
+  border-radius: var(--br-sm);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.r-shape {
+  align-self: stretch;
+  height: 62px;
+  position: relative;
+  background-color: var(--color-gray-400);
+}
+.frame-child17 {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  background-color: var(--color-cadetblue);
+  width: 385px;
+  height: 60px;
+  cursor: pointer;
+}
+.ok {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 337px;
+  text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+  z-index: 3;
+}
+.rectangle-parent7 {
+  align-self: stretch;
+  height: 81px;
+  position: relative;
+}
+.o-k-label {
+  width: 385px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  color: var(--color-white);
+}
+.o-k-label,
+.table-number,
+.table-number-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.table-number {
+  width: 401px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 11px;
+}
+.table-number-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 66px;
+  box-sizing: border-box;
+}
+.r-1-11 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 4;
+}
+.codigo {
+  height: 50px;
+  width: 147px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  z-index: 5;
+}
+.r-1-1-parent,
+.rectangle-parent5,
+.unirse-a-mesa-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.r-1-1-parent {
+  width: 491.9px;
+  height: 496.5px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: -48.5px;
+  left: -233px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 134px 24.90000000000009px;
+}
+.rectangle-parent5,
+.unirse-a-mesa-inner {
+  max-width: 100%;
+}
+.rectangle-parent5 {
+  width: 561px;
+  background-color: var(--color-gainsboro);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-6xs) 94px;
+  position: relative;
+  z-index: 1;
+}
+.unirse-a-mesa-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.unirse-a-mesa1 {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(180deg, #44aa92 60%, #11362d);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-229xl);
+  box-sizing: border-box;
+  gap: var(--gap-140xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 975px) {
+  .unirse-a-mesa1 {
+    gap: 79px 159px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .introduce-el-cdigo {
+    font-size: var(--font-size-10xl);
+  }
+  .codigo,
+  .mesa-n1,
+  .ok {
+    font-size: var(--font-size-7xl);
+  }
+  .rectangle-parent5 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-42xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .table-number-wrapper {
+    padding-left: var(--padding-14xl);
+    padding-right: var(--padding-14xl);
+    box-sizing: border-box;
+  }
+  .unirse-a-mesa1 {
+    gap: 40px 159px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .introduce-el-cdigo {
+    font-size: var(--font-size-3xl);
+  }
+  .codigo,
+  .mesa-n1,
+  .ok {
+    font-size: var(--font-size-lgi);
+  }
+}

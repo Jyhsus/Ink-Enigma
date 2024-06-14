@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/src/CSS/global.css" />
+    <link rel="stylesheet" href="/src/CSS/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu-principal">
+      <div class="fondo"></div>
+      <header class="banner-parent">
+        <div class="banner"></div>
+        <img
+          class="logotop-1-icon"
+          loading="lazy"
+          alt=""
+          src="/public/logotop-1@2x.png"
+        />
+      </header>
+      <section class="menu-principal-inner">
+        <div class="frame-parent">
+          <div class="r-1-wrapper">
+            <img
+              class="r-1-icon"
+              loading="lazy"
+              alt=""
+              src="/public/r-1@2x.png"
+            />
+          </div>
+          <div class="inicio-de-sesion-parent">
+            <div class="inicio-de-sesion"></div>
+            <div class="nombre-del-jugador">Nombre del Jugador</div>
+            <div class="lobby-parent">
+              <div class="lobby">
+                <div class="nombre"></div>
+                <input class="player" placeholder="nombre" type="text" />
+              </div>
+              <button class="a-jugar-parent" onclick="location.href='mesa.html'; return false;">
+                <div class="a-jugar" id="aJugar"></div>
+                <div class="a-jugar-wrapper">
+                  <b class="a-jugar1">¡A JUGAR!</b>
+                </div>
+              </button>
+              <div class="frame-group">
+                <button class="lobby-group" onclick="location.href='lobby.html'; return false;">
+                  <div class="lobby1" id="lobby"></div>
+                  <div class="lobby-wrapper">
+                    <b class="lobby2">LOBBY</b>
+                  </div>
+                </button>
+                <button class="mesa-privada-parent" onclick="location.href='mesa-privada.html'; return false;">
+                  <div class="mesa-privada" id="mesaPrivada"></div>
+                  <b class="mesa-privada1">MESA PRIVADA</b>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var aJugar = document.getElementById("aJugar");
+      if (aJugar) {
+        aJugar.addEventListener("click", function (e) {
+          window.location.href = "./mesa.html";
+        });
+      }
+      
+      var lobby = document.getElementById("lobby");
+      if (lobby) {
+        lobby.addEventListener("click", function (e) {
+          window.location.href = "./lobby.html";
+        });
+      }
+      
+      var mesaPrivada = document.getElementById("mesaPrivada");
+      if (mesaPrivada) {
+        mesaPrivada.addEventListener("click", function (e) {
+          window.location.href = "./mesa-privada.html";
+        });
+      }
+      </script>
+
+  </body>
+</html>

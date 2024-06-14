@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="/src/CSS/global.css" />
+    <link rel="stylesheet" href="/src/CSS/mesa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="mesa">
+      <div class="fondo"></div>
+      <header class="banner-parent">
+        <div class="banner"></div>
+        <div class="frame-wrapper">
+          <div class="rectangle-parent">
+            <div class="frame-child" id="rectangle"></div>
+            <img
+              class="frame-item"
+              loading="lazy"
+              alt=""
+              src="/public/vector-1.svg"
+            />
+          </div>
+        </div>
+        <img
+          class="logotop-1-icon"
+          loading="lazy"
+          alt=""
+          src="/public/logotop-1@2x.png"
+        />
+      </header>
+      <main class="mesa-inner">
+        <section class="frame-parent">
+          <div class="rectangle-wrapper">
+            <div class="frame-inner"></div>
+          </div>
+          <div class="frame-group">
+            <div class="rectangle-group">
+              <div class="rectangle-div"></div>
+              <div class="ellipse-wrapper">
+                <div class="ellipse-div"></div>
+              </div>
+              <div class="mesa-number-ronda">
+                <div class="mesa-n-parent">
+                  <b class="mesa-n">MESA N°</b>
+                  <b class="ronda">RONDA</b>
+                </div>
+                <div class="mesa-number-ronda-inner">
+                  <div class="frame-child1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-child2">
+              <canvas id="main-canvas" height="848" width="865" ></canvas>
+            </div>
+          </div>
+          <div class="rectangle-container">
+            <div class="frame-child3"></div>
+            <button class="message-holder">
+              <div class="message-holder-child"></div>
+              <b class="chat">Chat</b>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div id="ventanaEmergentePopup" class="popup-overlay" style="display: none">
+      <div class="ventana-emergente">
+        <section class="frame-section">
+          <div class="frame-child22"></div>
+          <div class="message">
+            <b class="deseas-abandonar-el">¿Deseas abandonar el juego?</b>
+          </div>
+          <div class="s-i">
+            <div class="n-o">
+              <div class="n-o-child" id="popuprectangle"></div>
+              <b class="si">SI</b>
+            </div>
+            <div class="negate-btn">
+              <div class="rectangle-parent11">
+                <div class="frame-child23" id="popuprectangle"></div>
+                <b class="no">NO</b>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script>
+      document.querySelector('.n-o .si').addEventListener('click', function() {
+        window.location.href = 'index.html';
+      });
+      </script>
+
+    <script>
+      var popuprectangle = document.getElementById("popuprectangle");
+      if (popuprectangle) {
+        popuprectangle.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      
+      var popuprectangle = document.getElementById("popuprectangle");
+      if (popuprectangle) {
+        popuprectangle.addEventListener("click", function (e) {
+          window.location.href = "./mesa.html";
+        });
+      }
+      
+      var rectangle = document.getElementById("rectangle");
+      if (rectangle) {
+        rectangle.addEventListener("click", function () {
+          var popup = document.getElementById("ventanaEmergentePopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+          <script src="/src/JS/scriptcanva.js"></script>
+  </body>
+</html>
