@@ -11,8 +11,8 @@
   ## Instalacion
 
   ### Prerequisitos
-  - Node.js (v14 or later)
-  - Angular CLI (v12 or later)
+  - Node.js (v14 en adelante)
+  - Angular CLI (v12 en adelante)
   - TypeScript
 
     ### Steps
